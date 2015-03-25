@@ -5,7 +5,7 @@
 
 #include "stm32f10x.h"
 
-#include "uart_drv.h"
+#include "drv/uart_drv.h"
 
 #define RX_QUEUE_SIZE	(QUEUE_SIZE+0x10)
 

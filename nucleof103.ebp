@@ -152,11 +152,14 @@
 		<Unit filename="cmsis\core_cm3.h" />
 		<Unit filename="cmsis\core_cmFunc.h" />
 		<Unit filename="cmsis\core_cmInstr.h" />
+		<Unit filename="inc\drv\uart_drv.h" />
 		<Unit filename="inc\stm32f10x.h" />
 		<Unit filename="inc\stm32f10x_conf.h" />
 		<Unit filename="inc\system_stm32f10x.h" />
-		<Unit filename="inc\uart_drv.h" />
 		<Unit filename="readme.txt" />
+		<Unit filename="src\drv\uart_drv.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="src\main.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -167,9 +170,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src\system_stm32f10x.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="src\uart_drv.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="stm32f103rb_flash.ld" />
