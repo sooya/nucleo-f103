@@ -1,0 +1,9 @@
+# Executables
+/bin
+/obj
+
+
+# Temporary Files
+*.bak
+*.elay
+*.depend
